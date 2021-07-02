@@ -13,6 +13,9 @@ this will help to know where to look when editing
 # to publish 
 1. blogdown::hugo_build()
 
+# to shut down the server 
+blogdown::stop_server()
+
 
 # to stag files open Git -> more -> shell and type
 git add -A && git commit -m 'staging all files'

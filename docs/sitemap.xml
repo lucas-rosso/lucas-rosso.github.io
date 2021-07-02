@@ -35,12 +35,6 @@
     <loc>/publication/</loc>
     <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/source-themes/</loc>
-    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/master-thesis/</loc>
     <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -77,6 +71,9 @@
     <loc>/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tag/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -105,6 +102,9 @@
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/robert-ford/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/source-themes/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/2015-07-23-r-rmarkdown/</loc>

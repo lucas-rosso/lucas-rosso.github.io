@@ -12,6 +12,8 @@ this will help to know where to look when editing
 
 # to publish 
 1. blogdown::hugo_build()
+2. delete 'docs' folder
+3. rename 'public' as 'docs'
 
 # to shut down the server 
 blogdown::stop_server()

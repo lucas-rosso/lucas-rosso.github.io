@@ -20,6 +20,6 @@ blogdown::stop_server()
 
 
 # to stag files open Git -> more -> shell and type
-git add -A && git commit -m 'staging all files'
+git add -A
 
 then commit and push files. Finally, refresh github.

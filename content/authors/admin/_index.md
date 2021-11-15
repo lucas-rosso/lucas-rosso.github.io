@@ -15,7 +15,7 @@ role: MSc. in Economics
 # Organizations/Affiliations
 organizations:
 - name: Universidad de Chile
-  url: ""
+  url: "https://econ.uchile.cl/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Master in Economics from Universidad de Chile. My fields of interest are macroeconomics, household finance and inequality
@@ -67,4 +67,4 @@ user_groups:
 - Visitors
 ---
 
-I am currently a research assistant for Prof. Rodrigo Wagner at UAI. I have a Master in Economics from Universidad de Chile. My fields of interest are macroeconomics, household finance and inequality.
+I am a research assistant for Profs. Andrés Drenik (UT Austin), Hassan Afrouzi (Columbia) and Rodrigo Wagner (UAI). I have a Master in Economics from Universidad de Chile. My fields of interest are macroeconomics, household finance and inequality.

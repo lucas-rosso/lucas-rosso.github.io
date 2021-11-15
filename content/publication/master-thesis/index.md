@@ -18,8 +18,6 @@ publication_types: ["7"]
 publication: ""
 publication_short: ""
 
-# abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
 abstract: This paper studies how differences in portfolio choice between households help explain the highly unequal wealth distribution seen in the data. It has been well documented that participation rates are substantially smaller than the ones predicted in standard models of portfolio choice. Also, both participation rates and risky shares are highly increasing in wealth. However, both features are usually absent in workhorse models of wealth accumulation. We introduce portfolio choice and adjustment frictions into an otherwise standard model of households saving behavior. Calibrating it to U.S. household-level data, we show that the model is able to provide a better fit of the wealth distribution, while being consistent with well-known facts of households' portfolio choices. In particular, the model explains roughly half of the gap between top wealth shares predicted by traditional models of wealth accumulation (e.g. Aiyagari, 1994) and the data.
 
 # Summary. An optional shortened abstract.
@@ -32,11 +30,11 @@ featured: false
 links:
 
 url_pdf: files/LucasRosso_Tesis.pdf
-url_code: ''
+url_code: 'https://github.com/lucas-rosso/Masters-thesis'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: files/Slides_MMF.pdf
 url_source: ''
 url_video: ''
 
@@ -63,8 +61,4 @@ projects:
 slides: ''
 ---
 
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
 
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

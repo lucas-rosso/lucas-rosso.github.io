@@ -1,5 +1,5 @@
 # Font style metadata
-name = "Minimal"
+name = "robot_mono"
 
 # Optional Google font URL
 google_fonts = "family=Roboto+Mono:ital,wght@0,100;0,400;0,700;1,100"

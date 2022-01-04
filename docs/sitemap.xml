@@ -44,14 +44,8 @@
     <loc>/publication/master-thesis/</loc>
     <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
@@ -75,28 +69,7 @@
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/category/demo/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication-type/2/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
@@ -110,19 +83,8 @@
     <loc>/tag/source-themes/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>/tag/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>/category/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>/tag/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>/tag/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
 </urlset>

@@ -11,7 +11,7 @@ this will help to know where to look when editing
 3. blogdown::serve_site() in the console
 
 # To publish 
-1. blogdown::hugo_build()
+1. blogdown::hugo_build(local=TRUE)
 2. delete 'docs' folder
 3. rename 'public' as 'docs'
 

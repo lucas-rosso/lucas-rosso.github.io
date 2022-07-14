@@ -6,7 +6,7 @@
     blogdown::serve_site()
 
 # Publish
-    blogdown::hugo_build() 
+    blogdown::hugo_build(local=TRUE) 
     # 2. delete 'docs' folder
     # 3. rename 'public' as 'docs'
 

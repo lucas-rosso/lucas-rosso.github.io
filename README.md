@@ -22,7 +22,7 @@ blogdown::stop_server()
 # To stage files open Git -> more -> shell and type
 git add -A
 
-then commit and push files. Finally, refresh github.
+then commit and push files. Finally, refresh github. Refresh the website and should be up to date.
 
 # Change website icon (aka favion)
 - Save icon 512x512 pixel image as icon.ong in assets/media/ if it does not exist, create the folder.

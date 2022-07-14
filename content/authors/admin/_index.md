@@ -18,7 +18,7 @@ organizations:
   url: "https://econ.uchile.cl/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Master in Economics from Universidad de Chile. My fields of interest are macroeconomics, household finance and inequality
+bio:
 
 interests:
 - Macroeconomics
@@ -55,7 +55,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: files/cv.pdf
+  link: files/cv_ing.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

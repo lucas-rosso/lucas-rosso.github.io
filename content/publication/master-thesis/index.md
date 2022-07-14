@@ -1,5 +1,5 @@
 ---
-title: "The Portfolio choice Channel of Wealth Inequality"
+title: "The Portfolio Choice Channel of Wealth Inequality"
 authors:
 - admin
 date: "2021-04-07T00:00:00Z"
@@ -12,7 +12,7 @@ publishDate: "2017-01-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["7"]
+publication_types: ["0"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""

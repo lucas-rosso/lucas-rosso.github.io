@@ -5,12 +5,279 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_huae7b0533d19797e5c08deeeecce64497_19005_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Data and Links</title>
+      <link>/post/links/</link>
+      <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/post/links/</guid>
+      <description>&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
+&lt;p&gt;Below a list of public data sources and some links to cleaning the data in STATA&lt;/p&gt;
+&lt;h3 id=&#34;united-states&#34;&gt;United States&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.newyorkfed.org/microeconomics/sce#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Survey of Consumer Expectations&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;: Rotating monthly panel of households started in June 2013 with information on expectations over inflation, government debt, growth, etc. Code for cleaning data (core module) in 
+&lt;a href=&#34;https://github.com/lucas-rosso/Data_Cleaning_Codes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.bls.gov/cex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Consumer Expenditure Surveys&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;: Data on expenditures, income, and demographic characteristics of consumers in the United States&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.federalreserve.gov/econres/scfindex.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Survey of Consumer Finances&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;: Triennial basis household survey that offers a rich classification of households assets and liabilities. Code to clean raw data for the period 1998-2019 in the following 
+&lt;a href=&#34;https://github.com/lucas-rosso/Data_Cleaning_Codes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;. Just requires to add a &amp;lsquo;raw&amp;rsquo; folder with (&lt;code&gt;.dta&lt;/code&gt;) files and run &lt;code&gt;SCF/master.do&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;chile&#34;&gt;Chile&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://observatorio.ministeriodesarrollosocial.gob.cl/encuesta-casen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;CASEN&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;: Chile&amp;rsquo;s main household survey. The survey is available on a bi(tri) annual basis for the period 1990-2020&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.efhweb.cl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Encuesta Financiera de Hogares&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;. Chilean version of the SCF. Made by the Central Bank of Chile since 2007.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/lucas-rosso/Codes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Unemployment Insurance Administrative Data&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt; (random sample): Data on workers affiliated to the unemployment insurance in Chile (2002 onwards). Information on taxable income, sector clasification, employee&amp;rsquo;s identifier and county. Random samples are computed without replacement and thus can be merged to get up to 20% of the complete sample. See 
+&lt;a href=&#34;https://github.com/lucas-rosso/Data_Cleaning_Codes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; for STATA code to clean data.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://si3.bcentral.cl/siete&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Central Bank&amp;rsquo;s Statistics Database&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;: Aggregate data on output, inflation, unemployment, exchange rate, commodity prices and many other.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.nber.org/research/data?page=1&amp;amp;perPage=50&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;NBER&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://data.worldbank.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;World Bank&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://data.imf.org/?sk=388dfa60-1d26-4ade-b505-a05a558d9a42&amp;amp;sId=1479329132316&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;IMF&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.rug.nl/ggdc/productivity/pwt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Penn World Tables&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Version Control Notes&lt;/strong&gt;&lt;/em&gt;: Online lecture with Git basics (plus notes) in 
+&lt;a href=&#34;https://missing.csail.mit.edu/2020/version-control/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;./missing-semester&lt;/a&gt;. Chapter on Git by Jesus Fernandez Villaverde (see 
+&lt;a href=&#34;https://www.sas.upenn.edu/~jesusfv/Chapter_HPC_5_Git.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Solving HA models in continuous time&lt;/strong&gt;&lt;/em&gt;: Nice repository with examples of solving HA using finite-difference methods by Ben Moll (see 
+&lt;a href=&#34;https://benjaminmoll.com/codes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Useful links&lt;/strong&gt;&lt;/em&gt;: Repository with links to literature reviews, class materials, coding notes, etc (see 
+&lt;a href=&#34;https://christinecai.github.io/items/PublicGoods.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Resources for applyinh to PhD&lt;/strong&gt;&lt;/em&gt;: Alvin Christian public resources for pre-docs and PhD applications (see 
+&lt;a href=&#34;https://www.alvinchristian.com/resources&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nice Figures in STATA</title>
+      <link>/post/figures_stata/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/post/figures_stata/</guid>
+      <description>&lt;p&gt;For some time I&amp;rsquo;ve struggled with how to both make nice figures in STATA and also use a consistent template relative to all figures within a text, latex set-up, etc.&lt;/p&gt;
+&lt;p&gt;Here is basically my set-up now:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Font&lt;/strong&gt;&lt;/em&gt;: I changed the font to match LaTex. 
+&lt;a href=&#34;https://medium.com/the-stata-guide/stata-graphs-get-those-fonts-right-c38d35625142&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; a guide on how to do that.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Scheme&lt;/strong&gt;&lt;/em&gt;: modern. To install type&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-stata&#34;&gt;    net install scheme-modern, ///
+    from(&amp;quot;https://raw.githubusercontent.com/mdroste/stata-scheme-modern/master/&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Graph sizes, colors, etc:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-stata&#34;&gt;    local color1      = &amp;quot;0 111 185&amp;quot; // blue
+    local color2      = &amp;quot;212 81 24&amp;quot; // orange
+    local colors      = `&amp;quot; &amp;quot;`color1&#39;&amp;quot; &amp;quot;`color2&#39;&amp;quot; &amp;quot;&#39;
+
+    local second_axis = `&amp;quot;ylabel(none,axis(2)) xlabel(none,axis(2)) xtitle(&amp;quot;&amp;quot;,axis(2)) ytitle(&amp;quot;&amp;quot;,axis(2))&amp;quot;&#39;
+    local label_size  = &amp;quot;xlabel(, labsize(large)) ylabel(, labsize(large)) ytitle(, size(large)) xtitle(, size(large)) legend(size(large))&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Close box&lt;/strong&gt;&lt;/em&gt;: Create and variable with all missing, then add to second axis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The example of the figure above is computed as follows&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-stata&#34;&gt;	gen empty = .
+
+	reg mean_exp_debtUS_12m_p2 l12.debt_change_yoy
+	twoway ///
+		(scatter mean_exp_debtUS_12m_p2 l12.debt_change_yoy if monthly_date &amp;lt;  `max_date&#39;, mcolor(&amp;quot;`color&#39;&amp;quot;) msymbol(circle_hollow))   ///
+		(scatter mean_exp_debtUS_12m_p2 l12.debt_change_yoy if monthly_date &amp;gt;= `max_date&#39;, mcolor(&amp;quot;`color_2&#39;&amp;quot;) msymbol(circle_hollow)) ///
+		(lfit    mean_exp_debtUS_12m_p2 l12.debt_change_yoy if monthly_date &amp;lt;  `max_date&#39;, lcolor(&amp;quot;`color&#39;&amp;quot;))   ///
+		(lfit    mean_exp_debtUS_12m_p2 l12.debt_change_yoy if monthly_date &amp;gt;= `max_date&#39;, lcolor(&amp;quot;`color_2&#39;&amp;quot;)) ///
+		(line empty l12.debt_change_yoy, xaxis(2) yaxis(2) `second_axis&#39;),   ///
+		ytitle(&amp;quot;{stSerif:E}{subscript:t}{stSerif:x}{subscript:t+12}&amp;quot;) ///
+		xtitle(&amp;quot;{stSerif:x}{subscript:t}&amp;quot;) ///
+		title(&amp;quot;A - Household Expectations&amp;quot;, size(huge) color(black)) ///
+		legend(order(1 &amp;quot;Pre `max_year&#39;m`max_month&#39;&amp;quot; 2 &amp;quot;Post `max_year&#39;m`max_month&#39;&amp;quot;) rows(3) ring(0) pos(11)) ///
+		`label_size&#39; name(&amp;quot;scatter1&amp;quot;, replace) 
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nice Tables in LaTex</title>
+      <link>/post/export_tables_stata/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/post/export_tables_stata/</guid>
+      <description>&lt;h2 id=&#34;tables-using-esttab&#34;&gt;Tables using &lt;code&gt;esttab&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;This is probably the most common command for computing LaTex tables. For most common cases it works rather well, and is much faster than &lt;code&gt;texdoc&lt;/code&gt; (see below). Here is an example of the options I typically use to get nice tables using &lt;code&gt;esttab&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-stata&#34;&gt;	estimates clear
+	foreach yvar of varlist inflation_exp* FE_* {
+
+		qui eststo: reghdfe `yvar&#39; homeowner high_income_house college age gender married hispanic_origin i.race, abs(date) vce(r) 
+		estadd local time_FE &amp;quot;Yes&amp;quot;
+		estadd local other_controls &amp;quot;Yes&amp;quot;
+		estadd scalar a_r2 = e(r2_a)
+	}
+
+	esttab using &amp;quot;$tables/determinants_inflation_exp.tex&amp;quot;, width(\hsize) nocons b(%5.2fc) se(%5.3fc) star(* 0.1 ** 0.05 *** 0.01) ///
+			obslast nonotes nobaselevels replace booktabs substitute(&amp;quot;\_&amp;quot; &amp;quot;_&amp;quot;)  ///
+			mtitles(&amp;quot;PP&amp;quot; &amp;quot;HM&amp;quot; &amp;quot;DE&amp;quot; &amp;quot;PP&amp;quot; &amp;quot;HM&amp;quot; &amp;quot;DE&amp;quot;) ///
+			coeflabels(high_income_house &amp;quot;High income household&amp;quot; college &amp;quot;College&amp;quot; homeowner &amp;quot;Homeowner&amp;quot; age &amp;quot;Age&amp;quot; gender &amp;quot;Female&amp;quot; ///
+			married &amp;quot;Married&amp;quot; hispanic_origin &amp;quot;Hispanic origin&amp;quot; 2.race &amp;quot;Black or African American&amp;quot; 4.race &amp;quot;Asian&amp;quot;) ///
+			order(high_income_house college homeowner age gender married hispanic_origin 2.race 4.race) drop(_cons 3.race 5.race 6.race) ///
+	        mgroups(&amp;quot;\$ \mathbb{E}(\pi_{t+1}|\mathcal{I}_{i,t}) \$&amp;quot; &amp;quot;\$ |FE_{i,t+1}| \$&amp;quot;, pattern(1 0 0 1 0 0) /// 
+	        prefix(\multicolumn{3}{c}{) suffix(}) span erepeat(\cmidrule(lr){@span}))            ///
+	        stats(N a_r2 other_controls time_FE, labels(Observations &amp;quot;Adj. \$ R^{2} \$&amp;quot; &amp;quot;Other controls&amp;quot; &amp;quot;Time fixed effects&amp;quot;) fmt(&amp;quot;%9.0fc %9.2fc&amp;quot;)) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;add-esttab-examplepng&#34;&gt;Add esttab example.png&lt;/h3&gt;
+&lt;h2 id=&#34;tables-using-texdoc&#34;&gt;Tables using &lt;code&gt;texdoc&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Using the command texdoc (&lt;code&gt;ssc install texdoc&lt;/code&gt;) allows editing latex tables within a STATA do-file. This is very useful to have easily replicable results with no intermediate formatting of the table (e.g. 
+&lt;a href=&#34;https://www.tablesgenerator.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tablegenerator.com&lt;/a&gt;). 
+&lt;a href=&#34;https://www.stata.com/meeting/germany16/slides/de16_jann.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Here&lt;/a&gt; some notes.&lt;/p&gt;
+&lt;p&gt;Basically you must store results in macros, and then add &amp;lsquo;fill&amp;rsquo; your latex table manually (e.g. with a loop). Here a simple example for a descriptive stats table&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-stata&#34;&gt;    global tables = &amp;quot;C:\Users\LR\Desktop\Lucas Rosso\lucas-rosso.github.io\resources_LR&amp;quot;
+    sysuse auto, clear
+
+    foreach var of varlist price mpg weight length {
+        local `var&#39; = &amp;quot;&amp;quot;
+        summ `var&#39;, detail
+
+        foreach stat in &amp;quot;mean&amp;quot; &amp;quot;p50&amp;quot; &amp;quot;sd&amp;quot; &amp;quot;min&amp;quot; &amp;quot;max&amp;quot; &amp;quot;N&amp;quot; {
+
+            if &amp;quot;`stat&#39;&amp;quot; != &amp;quot;N&amp;quot; local aux: di %9.2fc r(`stat&#39;)
+            else local aux: di %9.0fc r(`stat&#39;)
+
+            local `var&#39; = &amp;quot;``var&#39;&#39; &amp;amp; `aux&#39;&amp;quot;
+        }
+    }
+
+    texdoc i &amp;quot;$tables\desc_stats.tex&amp;quot;, replace force
+    tex \begin{tabular}{m{14em}*{6}{&amp;gt;{\centering\arraybackslash}m{1.4cm}}} \toprule
+    // tex  &amp;amp; \textbf{Mean} &amp;amp; \textbf{Std. Dev.}  &amp;amp; \textbf{Min}  &amp;amp; \textbf{Max} &amp;amp; \textbf{Obs.} \\ \midrule
+    tex  &amp;amp; Mean &amp;amp; Median &amp;amp; Std. Dev.  &amp;amp; Min  &amp;amp; Max &amp;amp; Obs. \\ \midrule
+    tex Price `price&#39;           \\
+    tex Mileage (mpg) `mpg&#39;     \\
+    tex Weigth (lbs.) `weight&#39;  \\
+    tex Length `length&#39;         \\ \bottomrule
+    tex \end{tabular}
+    texdoc close 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;add-figure-with-table&#34;&gt;ADD FIGURE with table&lt;/h3&gt;
+&lt;p&gt;Below there is a more complex example with multiple regressions and, panels, etc which allows to get a grasp of the things one can do with this command.&lt;/p&gt;
+&lt;h3 id=&#34;add-figure-table-expectations&#34;&gt;ADD FIGURE table expectations&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Web Scraping using Python</title>
+      <link>/post/web_scraping_python/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/post/web_scraping_python/</guid>
+      <description>&lt;p&gt;Web scraping can be a very useful tool for a wide range of problems. For example, it may allow to compute a new dataset, get high-frequency information on financial variables, adopt a pet (see 
+&lt;a href=&#34;https://acarril.github.io/posts/adopt-dog-python&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;) or even look for a new job.&lt;/p&gt;
+&lt;p&gt;When I was applying for RA positions, I designed a code to email me new opening for RA positions posted at the 
+&lt;a href=&#34;https://www.nber.org/career-resources/research-assistant-positions-not-nber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NBER website&lt;/a&gt; on a daily basis.&lt;/p&gt;
+&lt;p&gt;The slides at the beginning of this post walk through this example + the same example on a more complex website:&lt;/p&gt;
+&lt;p&gt;Finally, to email updates on the NBER I proceed as follows.&lt;/p&gt;
+&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;load email-specific python packages&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    import smtplib
+    from email.mime.text import MIMEText
+    from email.mime.multipart import MIMEMultipart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Check if the stored dataset of job openings exist and then open it as a data frame:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;df_old = pd.read_csv(&#39;current_jobs.csv&#39;,sep=&#39;;&#39;,index_col=False)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Look for differences in the old &lt;em&gt;vis-a-vis&lt;/em&gt; new data.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;diffs = list(set(df.id) ^ set(df_old.id)) # id: job opening id
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If there are differences, create lists for added/gone openings.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# compute sets of added and removed jobs, create corresponding dataframes (email)
+added    = list(set(df.id) - set(df_old.id))
+gone     = list(set(df_old.id) - set(df.id))
+dfAdded  = df[df[&#39;id&#39;].isin(added)]
+dfGone   = df_old[df_old[&#39;id&#39;].isin(gone)]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Email new openings and filled positions:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    # send new jobs
+
+    # subject
+    if len(added) &amp;gt; 0:
+        subject = &#39;New Opening Alert!&#39;
+    else:
+        subject = &#39;Closed positions.&#39;
+
+    # sender
+    sender = &#39;your_email@gmail.com&#39;
+    password = &#39;your_password&#39;
+    smtp_server = &amp;quot;smtp.gmail.com&amp;quot;
+    port = 587
+
+    # recepient
+    recipient  = &#39;your_email@gmail.com&#39;
+
+    msg = MIMEMultipart()
+    msg[&#39;From&#39;] = sender
+    msg[&#39;To&#39;] = recipient
+    msg[&#39;Subject&#39;] = subject  
+
+
+    message = f&amp;quot;&amp;quot;&amp;quot;\
+    Check changes in RA openings below 
+    Opened:
+    {dfAdded[[&#39;pos_name&#39;, &#39;researcher&#39;, &#39;institution&#39;, &#39;field&#39;, &#39;link&#39;]].stack().to_string(index=False)}
+    Closed:
+    {dfGone[[&#39;pos_name&#39;, &#39;researcher&#39;, &#39;institution&#39;, &#39;field&#39;, &#39;link&#39;]].stack().to_string(index=False)}
+    &amp;quot;&amp;quot;&amp;quot;
+    msg.attach(MIMEText(message,&#39;plain&#39;)) 
+
+    smtpObj = smtplib.SMTP(smtp_server, port)
+    smtpObj.ehlo()
+    smtpObj.starttls()
+    smtpObj.login(sender, password)
+    smtpObj.sendmail(sender, recipient, msg.as_string())
+    smtpObj.quit()
+
+    fileName = &#39;current_jobs.csv&#39;
+    df.to_csv(fileName,na_rep=&#39;.&#39;,sep=&#39;;&#39;,index=False)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Useful Commands in Stata</title>
@@ -19,25 +286,46 @@
       <guid>/post/commands_stata/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;wbopendata&lt;/strong&gt;&lt;/em&gt;: Download data from World Bank directly from STATA.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/jpazvd/wbopendata&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;wbopendata&lt;/code&gt;&lt;/a&gt;: Download data from World Bank directly from STATA (&lt;code&gt;ssc install wbopendata&lt;/code&gt;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;tokenize&lt;/strong&gt;&lt;/em&gt;: Divide strings into tokens&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://scorreia.com/software/reghdfe/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;reghdfe&lt;/code&gt;&lt;/a&gt;: Generalization of areg for multiple level of fixed effects and multi-way clustering (&lt;code&gt;ssc install reghdfe&lt;/code&gt;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;grc1leg2&lt;/strong&gt;&lt;/em&gt;: Add a common legend to combined graphs (findit grc1leg2).&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/mcaceresb/stata-gtools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;gtools&lt;/code&gt;&lt;/a&gt;: Faster Stata for big data. Includes faster equivalents to collapse, reshape, egen and many more. Just need to add &lt;code&gt;g&lt;/code&gt; to the command (e.g. &lt;code&gt;gcollapse&lt;/code&gt;). To install all just type &lt;code&gt;ssc install gtools&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;texdoc&lt;/strong&gt;&lt;/em&gt;: Latex tables directly on STATA. Longer (but worth it) way to get results into latex tables directly from STATA.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/matthieugomez/sumup&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;sumup&lt;/code&gt;&lt;/a&gt;: Summarize data by groups&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;sendtoslack&lt;/strong&gt;&lt;/em&gt;: Send message to inform the code finished. Very helpful when working with large administrative data.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://journals.sagepub.com/doi/pdf/10.1177/1536867X1601600201&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;texdoc&lt;/code&gt;&lt;/a&gt;: Latex tables directly on STATA. Longer (but worth it) way to get results into latex tables directly from STATA (&lt;code&gt;ssc install texdoc&lt;/code&gt;)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;codebook&lt;/strong&gt;&lt;/em&gt;: Command to describe data.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/mdroste/stata-binscatter2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;binscatter2&lt;/a&gt; Faster binned scatterplots. It allows for multi-way fixed effects, unlike &lt;code&gt;binscatter&lt;/code&gt; (&lt;code&gt;ssc install binscatter2&lt;/code&gt;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;levelsof&lt;/strong&gt;&lt;/em&gt;: local(macroname): transforms values of a string into local macros&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;compress&lt;/code&gt;: Attempts to reduce the amount of memory used for the data. Important when working with large datasets. For an efficient way of generating new variabels use &lt;code&gt;gen [data type] varlist = exp&lt;/code&gt;, for example &lt;code&gt;gen int N_obs = _n&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;levelsof&lt;/code&gt;: transforms values of a string into local macros.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;tokenize&lt;/code&gt;: Divide strings into tokens&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;grc1leg2&lt;/code&gt;: Add a common legend to combined graphs (findit grc1leg2).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;sendtoslack&lt;/code&gt;: Send message to inform the code finished. Very helpful when working with large administrative data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;codebook&lt;/code&gt;: Command to describe data.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>

@@ -344,8 +344,7 @@
 
       <div id="search-box">
         
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
         
       </div>
 
@@ -420,7 +419,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+          <a class="nav-link " href="/files/cv_ing.pdf"><span>CV</span></a>
         </li>
 
         
@@ -449,7 +448,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#working-papers"><span>Master Thesis</span></a>
+          <a class="nav-link " href="/#working-papers"><span>Research</span></a>
         </li>
 
         
@@ -507,7 +506,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Resources</span></a>
+          <a class="nav-link " href="/#posts"><span>Public Goods</span></a>
         </li>
 
         
@@ -549,10 +548,6 @@
     </div>
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-      
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
       
 
       
@@ -609,16 +604,6 @@
 
   
   
-  
-  
-  <div>
-    
-
-  
-  <span ><a href="/author/lucas-rosso/">Lucas Rosso</a></span>
-  </div>
-  
-  
 
   
   <span class="article-date">
@@ -661,9 +646,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 282px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 544px;">
   <div style="position: relative">
-    <img src="/post/commands_stata/featured_hu777e90b22be454bea66da3f455d46505_29623_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+    <img src="/post/commands_stata/featured_hu862f4b03106092ed9c7ac8798e9242f6_55847_720x0_resize_lanczos_3.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -675,25 +660,46 @@
     <div class="article-style">
       <ul>
 <li>
-<p><em><strong>wbopendata</strong></em>: Download data from World Bank directly from STATA.</p>
+<p>
+<a href="https://github.com/jpazvd/wbopendata" target="_blank" rel="noopener"><code>wbopendata</code></a>: Download data from World Bank directly from STATA (<code>ssc install wbopendata</code>).</p>
 </li>
 <li>
-<p><em><strong>tokenize</strong></em>: Divide strings into tokens</p>
+<p>
+<a href="http://scorreia.com/software/reghdfe/index.html" target="_blank" rel="noopener"><code>reghdfe</code></a>: Generalization of areg for multiple level of fixed effects and multi-way clustering (<code>ssc install reghdfe</code>).</p>
 </li>
 <li>
-<p><em><strong>grc1leg2</strong></em>: Add a common legend to combined graphs (findit grc1leg2).</p>
+<p>
+<a href="https://github.com/mcaceresb/stata-gtools" target="_blank" rel="noopener"><code>gtools</code></a>: Faster Stata for big data. Includes faster equivalents to collapse, reshape, egen and many more. Just need to add <code>g</code> to the command (e.g. <code>gcollapse</code>). To install all just type <code>ssc install gtools</code>.</p>
 </li>
 <li>
-<p><em><strong>texdoc</strong></em>: Latex tables directly on STATA. Longer (but worth it) way to get results into latex tables directly from STATA.</p>
+<p>
+<a href="https://github.com/matthieugomez/sumup" target="_blank" rel="noopener"><code>sumup</code></a>: Summarize data by groups</p>
 </li>
 <li>
-<p><em><strong>sendtoslack</strong></em>: Send message to inform the code finished. Very helpful when working with large administrative data.</p>
+<p>
+<a href="https://journals.sagepub.com/doi/pdf/10.1177/1536867X1601600201" target="_blank" rel="noopener"><code>texdoc</code></a>: Latex tables directly on STATA. Longer (but worth it) way to get results into latex tables directly from STATA (<code>ssc install texdoc</code>)</p>
 </li>
 <li>
-<p><em><strong>codebook</strong></em>: Command to describe data.</p>
+<p>
+<a href="https://github.com/mdroste/stata-binscatter2" target="_blank" rel="noopener">binscatter2</a> Faster binned scatterplots. It allows for multi-way fixed effects, unlike <code>binscatter</code> (<code>ssc install binscatter2</code>).</p>
 </li>
 <li>
-<p><em><strong>levelsof</strong></em>: local(macroname): transforms values of a string into local macros</p>
+<p><code>compress</code>: Attempts to reduce the amount of memory used for the data. Important when working with large datasets. For an efficient way of generating new variabels use <code>gen [data type] varlist = exp</code>, for example <code>gen int N_obs = _n</code></p>
+</li>
+<li>
+<p><code>levelsof</code>: transforms values of a string into local macros.</p>
+</li>
+<li>
+<p><code>tokenize</code>: Divide strings into tokens</p>
+</li>
+<li>
+<p><code>grc1leg2</code>: Add a common legend to combined graphs (findit grc1leg2).</p>
+</li>
+<li>
+<p><code>sendtoslack</code>: Send message to inform the code finished. Very helpful when working with large administrative data.</p>
+</li>
+<li>
+<p><code>codebook</code>: Command to describe data.</p>
 </li>
 </ul>
 
@@ -804,8 +810,7 @@
 
 
   
-    
-    
+  
 
 
 
@@ -828,7 +833,7 @@
       <div class="media-body">
         <h5 class="card-title"><a href="/">Lucas Rosso</a></h5>
         <h6 class="card-subtitle">MSc. in Economics</h6>
-        <p class="card-text">Master in Economics from Universidad de Chile. My fields of interest are macroeconomics, household finance and inequality</p>
+        
         <ul class="network-icon" aria-hidden="true">
   
     
@@ -892,7 +897,7 @@
       
     
     <li>
-      <a href="/files/cv.pdf" >
+      <a href="/files/cv_ing.pdf" >
         <i class="ai ai-cv"></i>
       </a>
     </li>
@@ -904,7 +909,6 @@
   
 
 
-  
 
 
 
@@ -964,46 +968,13 @@
     
 
     
-    
-    
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks",
-        'slides' : "Slides"
-        };
-    </script>
-    
 
     
     
 
     
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
-        </div>
-      </div>
-      </div>
-    </script>
-    
 
     
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
     
 
     
@@ -1024,12 +995,10 @@
     
     
     
-      
     
     
     
-    
-    <script src="/js/academic.min.72756512af279b10e3e4b09540ed6e9f.js"></script>
+    <script src="/js/academic.min.782e06848e35cbc41536edd103c88ecf.js"></script>
 
     
 

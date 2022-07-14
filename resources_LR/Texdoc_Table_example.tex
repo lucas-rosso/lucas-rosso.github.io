@@ -1,0 +1,43 @@
+\documentclass{article}
+
+\usepackage{makecell}
+\usepackage{verbatim}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[capposition=top]{floatrow}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{palatino} % cool font 
+\usepackage{mathpazo} % fancy font for math
+\usepackage{booktabs}
+\usepackage[flushleft]{threeparttable} % for table notes
+\usepackage[labelfont={bf}]{caption}
+
+
+
+\begin{document}
+
+\begin{table}[h]
+    \centering
+    \begin{threeparttable}
+        \input{texdoc_example}
+        \caption{Table Example using \texttt{texdoc}}
+        \label{tab:texdoc_example}
+        \begin{tablenotes}
+            \item {\footnotesize \textbf{Notes:} Robust standard errors in parenthesis. *** Significant at the 1 percent level. ** Significant at the 5 percent level. * Significant at the 10 percent level. \par}
+        \end{tablenotes}
+    \end{threeparttable}
+\end{table}
+
+\newpage
+\begin{table}[h]
+    \centering
+    \begin{threeparttable}
+        \input{desc_stats.tex}
+        \caption{Table Example using \texttt{texdoc}}
+    \end{threeparttable}
+\end{table}
+
+
+\end{document}

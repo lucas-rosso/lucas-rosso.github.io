@@ -19,7 +19,7 @@ this will help to know where to look when editing
 blogdown::stop_server()
 
 
-# To stag files open Git -> more -> shell and type
+# To stage files open Git -> more -> shell and type
 git add -A
 
 then commit and push files. Finally, refresh github.

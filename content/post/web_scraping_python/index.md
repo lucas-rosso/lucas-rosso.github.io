@@ -10,15 +10,13 @@ lastMod: "2022-07-11"
 featured: false
 draft: false
 
-url_slides: files/web_scraping_slides.pdf
-
 ---
 
 Web scraping can be a very useful tool for a wide range of problems. For example, it may allow to compute a new dataset, get high-frequency information on financial variables, adopt a pet (see [link](https://acarril.github.io/posts/adopt-dog-python)) or even look for a new job.
 
 When I was applying for RA positions, I designed a code to email me new opening for RA positions posted at the [NBER website](https://www.nber.org/career-resources/research-assistant-positions-not-nber) on a daily basis. 
 
-The slides at the beginning of this post walk through this example + the same example on a more complex website:
+Here a set of [slides](/files/web_scraping_slides.pdf) that walk through this example + the same example on a more complex website using selenium.
 
 Finally, to email updates on the NBER I proceed as follows. 
 

@@ -36,10 +36,7 @@ This is probably the most common command for computing LaTex tables. For most co
 	        prefix(\multicolumn{3}{c}{) suffix(}) span erepeat(\cmidrule(lr){@span}))            ///
 	        stats(N a_r2 other_controls time_FE, labels(Observations "Adj. \$ R^{2} \$" "Other controls" "Time fixed effects") fmt("%9.0fc %9.2fc")) 
 ```
-
-### Add esttab example.png
-
-
+![](/files/esttab_example.png)
 ## Tables using `texdoc`
 
 Using the command texdoc (`ssc install texdoc`) allows editing latex tables within a STATA do-file. This is very useful to have easily replicable results with no intermediate formatting of the table (e.g. [tablegenerator.com](https://www.tablesgenerator.com/)). [Here](https://www.stata.com/meeting/germany16/slides/de16_jann.pdf) some notes.
@@ -75,8 +72,8 @@ Basically you must store results in macros, and then add 'fill' your latex table
     texdoc close 
 ```
 
-### ADD FIGURE with table
+![](/files/desc_stats.png)
 
-Below there is a more complex example with multiple regressions and, panels, etc which allows to get a grasp of the things one can do with this command.
+Below there is a more complex example with multiple regressions, panels, etc which allows to get a grasp of the things one can do with this command. The great advantage is that, even though it takes longer, once you made the table, it is straightforward to change things and everything is easily replicable.
 
-### ADD FIGURE table expectations
+![](/files/texdoc_example.png)

@@ -217,7 +217,7 @@
 	        prefix(\multicolumn{3}{c}{) suffix(}) span erepeat(\cmidrule(lr){@span}))            ///
 	        stats(N a_r2 other_controls time_FE, labels(Observations &amp;quot;Adj. \$ R^{2} \$&amp;quot; &amp;quot;Other controls&amp;quot; &amp;quot;Time fixed effects&amp;quot;) fmt(&amp;quot;%9.0fc %9.2fc&amp;quot;)) 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;add-esttab-examplepng&#34;&gt;Add esttab example.png&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/files/esttab_example.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;tables-using-texdoc&#34;&gt;Tables using &lt;code&gt;texdoc&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Using the command texdoc (&lt;code&gt;ssc install texdoc&lt;/code&gt;) allows editing latex tables within a STATA do-file. This is very useful to have easily replicable results with no intermediate formatting of the table (e.g. 
 &lt;a href=&#34;https://www.tablesgenerator.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tablegenerator.com&lt;/a&gt;). 
@@ -250,9 +250,9 @@
     tex \end{tabular}
     texdoc close 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;add-figure-with-table&#34;&gt;ADD FIGURE with table&lt;/h3&gt;
-&lt;p&gt;Below there is a more complex example with multiple regressions and, panels, etc which allows to get a grasp of the things one can do with this command.&lt;/p&gt;
-&lt;h3 id=&#34;add-figure-table-expectations&#34;&gt;ADD FIGURE table expectations&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/files/desc_stats.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Below there is a more complex example with multiple regressions, panels, etc which allows to get a grasp of the things one can do with this command. The great advantage is that, even though it takes longer, once you made the table, it is straightforward to change things and everything is easily replicable.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/files/texdoc_example.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -265,7 +265,8 @@
 &lt;a href=&#34;https://acarril.github.io/posts/adopt-dog-python&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;) or even look for a new job.&lt;/p&gt;
 &lt;p&gt;When I was applying for RA positions, I designed a code to email me new opening for RA positions posted at the 
 &lt;a href=&#34;https://www.nber.org/career-resources/research-assistant-positions-not-nber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NBER website&lt;/a&gt; on a daily basis.&lt;/p&gt;
-&lt;p&gt;The slides at the beginning of this post walk through this example + the same example on a more complex website:&lt;/p&gt;
+&lt;p&gt;Here a set of 
+&lt;a href=&#34;/files/web_scraping_slides.pdf&#34;&gt;slides&lt;/a&gt; that walk through this example + the same example on a more complex website using selenium.&lt;/p&gt;
 &lt;p&gt;Finally, to email updates on the NBER I proceed as follows.&lt;/p&gt;
 &lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;load email-specific python packages&lt;/li&gt;
@@ -400,7 +401,8 @@ dfGone   = df_old[df_old[&#39;id&#39;].isin(gone)]
       <link>/publication/master-thesis/</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       <guid>/publication/master-thesis/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;/files/risky_share.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>

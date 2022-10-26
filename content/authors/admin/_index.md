@@ -67,4 +67,4 @@ user_groups:
 - Visitors
 ---
 
-I am a research assistant for Profs. Andrés Drenik (UT Austin), Hassan Afrouzi (Columbia) and Rodrigo Wagner (UAI). I have a Master in Economics from Universidad de Chile. My fields of interest are macroeconomics, household finance and inequality.
+I am a research assistant for Profs. Andrés Drenik (UT Austin), Hassan Afrouzi (Columbia) and Rodrigo Wagner (UAI). I have a Master in Economics from Universidad de Chile. My main fields of interest are macroeconomics, household finance and inequality.

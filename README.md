@@ -31,7 +31,7 @@ then commit and push files. Finally, refresh github. Refresh the website and sho
 - Basic website layout: `config/params.toml`
 - Order drop-down menu: `config/menus.toml`
 - cv (drop-down menu): Update `cv_ing.pdf` file in `config/menus.toml` (note that path to CV is not within `static`)
-- cv (in icon at the rit of github logo) `static/files/cv_ing.pdf`
+- cv (in icon at the right of github logo) `static/files/cv_ing.pdf`
 - Picture and information: `content/authors/admin/_index.md` and `content/authors/admin/avatar.png`.
 
 ### Sections:

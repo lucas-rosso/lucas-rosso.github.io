@@ -24,6 +24,8 @@ image:
 projects: []
 ---
 
+* [`kountry`](https://journals.sagepub.com/doi/pdf/10.1177/1536867X0800800305): Command for getting country names and codes in different formats (`ssc install kountry`).
+
 * [`wbopendata`](https://github.com/jpazvd/wbopendata): Download data from World Bank directly from STATA (`ssc install wbopendata`).
 
 * [`reghdfe`](http://scorreia.com/software/reghdfe/index.html): Generalization of areg for multiple level of fixed effects and multi-way clustering (`ssc install reghdfe`).
@@ -34,9 +36,13 @@ projects: []
 
 * [`texdoc`](https://journals.sagepub.com/doi/pdf/10.1177/1536867X1601600201): Latex tables directly on STATA. Longer (but worth it) way to get results into latex tables directly from STATA (`ssc install texdoc`)
 
-* [binscatter2](https://github.com/mdroste/stata-binscatter2) Faster binned scatterplots. It allows for multi-way fixed effects, unlike `binscatter` (`ssc install binscatter2`).
+* [`binscatter2`](https://github.com/mdroste/stata-binscatter2) Faster binned scatterplots. It allows for multi-way fixed effects, unlike `binscatter` (`ssc install binscatter2`).
 
-* `compress`: Attempts to reduce the amount of memory used for the data. Important when working with large datasets. For an efficient way of generating new variabels use `gen [data type] varlist = exp`, for example `gen int N_obs = _n`
+* [`mdesc`](https://ideas.repec.org/c/boc/bocode/s457318.html): STATA module to tabulate missing values (`ssc install mdesc`).
+
+* `winsor2` New version of command `winsor`. Useful when you need to winsorize or trim outliers. Additional features include the possibility to winsorize on different levels at both ends of the distribituion. (`ssc install winsor2`).
+
+* `compress`: Attempts to reduce the amount of memory used for the data. Important when working with large datasets. For an efficient way of generating new variables use `gen [data type] varlist = exp`, for example `gen int N_obs = _n`
 
 * `levelsof`: transforms values of a string into local macros.
 

@@ -66,3 +66,5 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+:chart_with_upwards_trend: [Notes on Subjective Probability Distributions](files/notes_subjective_prob_dist.pdf)

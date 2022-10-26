@@ -10,8 +10,11 @@ lastMod: "2022-07-14"
 featured: false
 draft: false
 ---
+## Self-computed data 
 
-## Data
+- [***Effective working days***](https://github.com/lucas-rosso/Holidays_and_Growth): On a joint paper with [Rodrigo Wagner](https://sites.google.com/site/rodrigoawagner/home) ("*The Causal Effect of Public Holidays on Growth*"), we created a global panel of effective working days by scraping information on public holidays and workweek days from [`timeanddate.com`](https://www.timeanddate.com/). The link above provides the resulting data as well as replication codes in Python.
+
+## Public Data
 
 Below a list of public data sources and some links to cleaning the data in STATA
 ### United States
@@ -22,7 +25,7 @@ Below a list of public data sources and some links to cleaning the data in STATA
 ### Chile 
 - [***CASEN***](http://observatorio.ministeriodesarrollosocial.gob.cl/encuesta-casen): Chile's main household survey. The survey is available on a bi(tri) annual basis for the period 1990-2020
 - [***Encuesta Financiera de Hogares***](https://www.efhweb.cl/). Chilean version of the SCF. Made by the Central Bank of Chile since 2007.
-- [***Unemployment Insurance Administrative Data***](https://github.com/lucas-rosso/Codes) (random sample): Data on workers affiliated to the unemployment insurance in Chile (2002 onwards). Information on taxable income, sector clasification, employee's identifier and county. Random samples are computed without replacement and thus can be merged to get up to 20% of the complete sample. See [link](https://github.com/lucas-rosso/Data_Cleaning_Codes) for STATA code to clean data.
+- [***Unemployment Insurance Administrative Data***](https://www.spensiones.cl/) (random sample): Data on workers affiliated to the unemployment insurance in Chile (2002 onwards). Information on taxable income, sector classification, employee's identifier and county. Random samples are computed without replacement and thus can be merged to get up to 20% of the complete sample.
 - [***Central Bank's Statistics Database***](https://si3.bcentral.cl/siete): Aggregate data on output, inflation, unemployment, exchange rate, commodity prices and many other.
 
 ### Other

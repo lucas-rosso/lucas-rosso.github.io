@@ -538,7 +538,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="/#discussions"><span>Discussions</span></a>
         </li>
 
         
@@ -664,6 +664,10 @@
       <ul>
 <li>
 <p>
+<a href="https://journals.sagepub.com/doi/pdf/10.1177/1536867X0800800305" target="_blank" rel="noopener"><code>kountry</code></a>: Command for getting country names and codes in different formats (<code>ssc install kountry</code>).</p>
+</li>
+<li>
+<p>
 <a href="https://github.com/jpazvd/wbopendata" target="_blank" rel="noopener"><code>wbopendata</code></a>: Download data from World Bank directly from STATA (<code>ssc install wbopendata</code>).</p>
 </li>
 <li>
@@ -684,10 +688,17 @@
 </li>
 <li>
 <p>
-<a href="https://github.com/mdroste/stata-binscatter2" target="_blank" rel="noopener">binscatter2</a> Faster binned scatterplots. It allows for multi-way fixed effects, unlike <code>binscatter</code> (<code>ssc install binscatter2</code>).</p>
+<a href="https://github.com/mdroste/stata-binscatter2" target="_blank" rel="noopener"><code>binscatter2</code></a> Faster binned scatterplots. It allows for multi-way fixed effects, unlike <code>binscatter</code> (<code>ssc install binscatter2</code>).</p>
 </li>
 <li>
-<p><code>compress</code>: Attempts to reduce the amount of memory used for the data. Important when working with large datasets. For an efficient way of generating new variabels use <code>gen [data type] varlist = exp</code>, for example <code>gen int N_obs = _n</code></p>
+<p>
+<a href="https://ideas.repec.org/c/boc/bocode/s457318.html" target="_blank" rel="noopener"><code>mdesc</code></a>: STATA module to tabulate missing values (<code>ssc install mdesc</code>).</p>
+</li>
+<li>
+<p><code>winsor2</code> New version of command <code>winsor</code>. Useful when you need to winsorize or trim outliers. Additional features include the possibility to winsorize on different levels at both ends of the distribituion. (<code>ssc install winsor2</code>).</p>
+</li>
+<li>
+<p><code>compress</code>: Attempts to reduce the amount of memory used for the data. Important when working with large datasets. For an efficient way of generating new variables use <code>gen [data type] varlist = exp</code>, for example <code>gen int N_obs = _n</code></p>
 </li>
 <li>
 <p><code>levelsof</code>: transforms values of a string into local macros.</p>

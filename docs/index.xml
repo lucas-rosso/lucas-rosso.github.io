@@ -81,7 +81,14 @@
       <link>/post/links/</link>
       <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
       <guid>/post/links/</guid>
-      <description>&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;self-computed-data&#34;&gt;Self-computed data&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/lucas-rosso/Holidays_and_Growth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Effective working days&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;: On a joint paper with 
+&lt;a href=&#34;https://sites.google.com/site/rodrigoawagner/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rodrigo Wagner&lt;/a&gt; (&amp;quot;&lt;em&gt;The Causal Effect of Public Holidays on Growth&lt;/em&gt;&amp;quot;), we created a global panel of effective working days by scraping information on public holidays and workweek days from 
+&lt;a href=&#34;https://www.timeanddate.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;timeanddate.com&lt;/code&gt;&lt;/a&gt;. The link above provides the resulting data as well as replication codes in Python.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;public-data&#34;&gt;Public Data&lt;/h2&gt;
 &lt;p&gt;Below a list of public data sources and some links to cleaning the data in STATA&lt;/p&gt;
 &lt;h3 id=&#34;united-states&#34;&gt;United States&lt;/h3&gt;
 &lt;ul&gt;
@@ -101,8 +108,7 @@
 &lt;li&gt;
 &lt;a href=&#34;https://www.efhweb.cl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Encuesta Financiera de Hogares&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;. Chilean version of the SCF. Made by the Central Bank of Chile since 2007.&lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;https://github.com/lucas-rosso/Codes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Unemployment Insurance Administrative Data&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt; (random sample): Data on workers affiliated to the unemployment insurance in Chile (2002 onwards). Information on taxable income, sector clasification, employee&amp;rsquo;s identifier and county. Random samples are computed without replacement and thus can be merged to get up to 20% of the complete sample. See 
-&lt;a href=&#34;https://github.com/lucas-rosso/Data_Cleaning_Codes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; for STATA code to clean data.&lt;/li&gt;
+&lt;a href=&#34;https://www.spensiones.cl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Unemployment Insurance Administrative Data&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt; (random sample): Data on workers affiliated to the unemployment insurance in Chile (2002 onwards). Information on taxable income, sector classification, employee&amp;rsquo;s identifier and county. Random samples are computed without replacement and thus can be merged to get up to 20% of the complete sample.&lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://si3.bcentral.cl/siete&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&lt;strong&gt;Central Bank&amp;rsquo;s Statistics Database&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;: Aggregate data on output, inflation, unemployment, exchange rate, commodity prices and many other.&lt;/li&gt;
 &lt;/ul&gt;
@@ -352,6 +358,10 @@ dfGone   = df_old[df_old[&#39;id&#39;].isin(gone)]
       <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
+&lt;a href=&#34;https://journals.sagepub.com/doi/pdf/10.1177/1536867X0800800305&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;kountry&lt;/code&gt;&lt;/a&gt;: Command for getting country names and codes in different formats (&lt;code&gt;ssc install kountry&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
 &lt;a href=&#34;https://github.com/jpazvd/wbopendata&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;wbopendata&lt;/code&gt;&lt;/a&gt;: Download data from World Bank directly from STATA (&lt;code&gt;ssc install wbopendata&lt;/code&gt;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -372,10 +382,17 @@ dfGone   = df_old[df_old[&#39;id&#39;].isin(gone)]
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://github.com/mdroste/stata-binscatter2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;binscatter2&lt;/a&gt; Faster binned scatterplots. It allows for multi-way fixed effects, unlike &lt;code&gt;binscatter&lt;/code&gt; (&lt;code&gt;ssc install binscatter2&lt;/code&gt;).&lt;/p&gt;
+&lt;a href=&#34;https://github.com/mdroste/stata-binscatter2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;binscatter2&lt;/code&gt;&lt;/a&gt; Faster binned scatterplots. It allows for multi-way fixed effects, unlike &lt;code&gt;binscatter&lt;/code&gt; (&lt;code&gt;ssc install binscatter2&lt;/code&gt;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;compress&lt;/code&gt;: Attempts to reduce the amount of memory used for the data. Important when working with large datasets. For an efficient way of generating new variabels use &lt;code&gt;gen [data type] varlist = exp&lt;/code&gt;, for example &lt;code&gt;gen int N_obs = _n&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://ideas.repec.org/c/boc/bocode/s457318.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;mdesc&lt;/code&gt;&lt;/a&gt;: STATA module to tabulate missing values (&lt;code&gt;ssc install mdesc&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;winsor2&lt;/code&gt; New version of command &lt;code&gt;winsor&lt;/code&gt;. Useful when you need to winsorize or trim outliers. Additional features include the possibility to winsorize on different levels at both ends of the distribituion. (&lt;code&gt;ssc install winsor2&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;compress&lt;/code&gt;: Attempts to reduce the amount of memory used for the data. Important when working with large datasets. For an efficient way of generating new variables use &lt;code&gt;gen [data type] varlist = exp&lt;/code&gt;, for example &lt;code&gt;gen int N_obs = _n&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;levelsof&lt;/code&gt;: transforms values of a string into local macros.&lt;/p&gt;

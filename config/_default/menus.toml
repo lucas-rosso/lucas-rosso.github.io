@@ -24,7 +24,7 @@
     weight = 50
 
 [[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 60
+    name = "Discussions"
+    url = "#discussions"
+    weight = 60
 
